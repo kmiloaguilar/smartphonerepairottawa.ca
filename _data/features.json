@@ -1,0 +1,22 @@
+[
+  {
+    "title": "No Appointment",
+    "description": "Walk-ins are welcome, no appointment is required.",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "Free Diagnose",
+    "description": "Let us check your device for a free diagnose.",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "No Fix No Pay",
+    "description": "If we can't fix your device, you don't pay.",
+    "image": "images/features/noun_The Process_1885341.svg"
+  },
+  {
+    "title": "100 Day Warranty",
+    "description": "We give 100 day warranty.",
+    "image": "images/features/noun_3d modeling_1885342.svg"
+  }
+]
