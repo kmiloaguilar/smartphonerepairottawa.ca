@@ -8,6 +8,18 @@ collections:
   services:
     output: true
     permalink: /services/:path/
+  repairs:
+    output: true
+    permalink: /repairs/:path/
+  unlocks:
+    output: true
+    permalink: /unlocks/:path/
+  computer-repairs:
+    output: true
+    permalink: /computer-repairs/:path/
+  shop:
+    output: true
+    permalink: /shop/:path/
   team:
     output: true
     permalink: /team/:path/
@@ -25,6 +37,26 @@ defaults:
       path: 'images'
     values:
       image: true
+  - scope:
+      type: repairs
+    values:
+      layout: service
+      bodyClass: page-service-single
+  - scope:
+      type: unlocks
+    values:
+      layout: service
+      bodyClass: page-service-single
+  - scope:
+      type: computer-repairs
+    values:
+      layout: service
+      bodyClass: page-service-single
+  - scope:
+      type: shop
+    values:
+      layout: service
+      bodyClass: page-service-single
 
 sass:
   style: compact # possible values: nested expanded compact compressed
